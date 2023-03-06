@@ -9,6 +9,7 @@ class MapContainer extends Component {
         <Map
         google={this.props.google}
         style={{width:"100%", height:"100%"}}
+        
         zoom={15}
         initialCenter ={
           {
@@ -17,6 +18,13 @@ class MapContainer extends Component {
           }
         }
         />
+        // const map = new google.maps.Map(document.getElementById("map"), {
+        //   center: { lat: 40.76, lng: -73.983 },
+        //   zoom: 15,
+        //   mapTypeId: "satellite",
+        // });
+      
+        //map.setTilt(45);
   );
 }
 }
